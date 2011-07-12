@@ -40,7 +40,7 @@ public class MyTestGitActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      //  setContentView(R.layout.main);
+        setContentView(R.layout.main);
         TextView tv=new TextView(this); 
         Map vars=new HashMap();  
         vars.put("mydata", "Hello,Android"); 
